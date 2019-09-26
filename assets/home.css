@@ -1,0 +1,100 @@
+.home {
+    display: flex;
+    background-color: #55c0ec;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+
+    /* justify-content: space-around; */
+}
+
+.home h1 {
+    margin: 0 auto;
+    height: auto;
+    color: rgba(0, 0, 0, .6);
+    font-size: 5rem;
+    letter-spacing: -.1875rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.home p {
+    color: #fff;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+}
+
+.slogan {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    font-size: 1.675rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+}
+
+.back-to-top {
+    background-color: #ffd05a;
+    border: 0;
+    border-radius: 4px;
+    bottom: 1rem;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    overflow: hidden;
+    padding: .5rem .5rem 0;
+    position: fixed;
+    right: 1rem;
+    text-decoration: none;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    z-index: 99;
+}
+
+#section1 {
+    padding-top: 16px;
+}
+
+.btn-cta img {
+    margin: 0 1rem 0 0;
+    padding: 0;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+    width: 2.5rem;
+}
+
+.btn-cta {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    color: inherit;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.75rem;
+    line-height: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 1rem;
+    text-decoration: none;
+    -webkit-transition: background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out, transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out, transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    width: 100%;
+}

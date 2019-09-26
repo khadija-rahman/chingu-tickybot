@@ -1,0 +1,11 @@
+
+
+@media only screen and (min-width: 30rem){
+    .container--flex>* {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(50% - 2em);
+        flex: 0 1 calc(50% - 2em);
+         margin: 1rem;
+        min-width: 300px;
+    }
+}

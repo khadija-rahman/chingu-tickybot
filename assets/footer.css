@@ -1,0 +1,18 @@
+.site-footer {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.site-footer, .site-header {
+    background-color: #40596b;
+}
+
+.site-footer p {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: hsla(0,0%,100%,.75);
+    font-size: .825rem;
+    margin-bottom: .25rem;
+    text-align: center;
+  
+}

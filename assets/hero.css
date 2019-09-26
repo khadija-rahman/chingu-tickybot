@@ -1,0 +1,13 @@
+.hero__bot svg {
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg {
+    fill: currentColor;
+}

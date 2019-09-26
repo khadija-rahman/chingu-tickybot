@@ -1,0 +1,36 @@
+/* Styles for Single Level Menu */
+#navbar {
+    height: 96px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar li {
+    margin-right: 1rem;
+}
+
+#navbar li:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 100em) {
+    .single-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;  /*leaves unusable space between each item   */
+
+    }
+
+    .single-nav li {
+        flex: 1 0 auto; /* fixes the unsuable space however if using this you can not use justify content (flex-grow, flex-shrink, flex-basis  */
+        text-align: center;
+    }
+}

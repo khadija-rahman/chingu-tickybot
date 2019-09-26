@@ -1,0 +1,23 @@
+/* Base styles that apply to all menus */
+header {
+    background-color: rgba(65, 89, 106, 1);  
+	/* padding-bottom: 2em; */
+	/* margin-bottom: 2em;  */
+	 border-bottom: 1px solid hsl(0, 0%, );
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li a {
+	display: block;
+	text-decoration: none;
+	color: rgb(255, 208, 90);
+}
+
+header li a:active {
+	color: rgb(255, 255, 255);
+}

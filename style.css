@@ -1,0 +1,173 @@
+@import url('assets/reset.css');
+@import url('assets/accessibility.css');
+@import url('assets/layout.css');
+@import url('assets/typography.css');
+@import url('assets/masthead.css');
+@import url('assets/nav-base.css');
+@import url('assets/navbar.css');
+@import url('assets/home.css');
+@import url('assets/hero.css');
+@import url('assets/animation.css');
+@import url('assets/image.css');
+@import url('assets/cta.css');
+@import url('assets/footer.css');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Signika, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+h1,h2,h3 {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 300;
+}
+
+p {
+  margin-top: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.container {
+  font-size: 1.25rem;
+  margin: 1rem;
+  max-width: 1200px;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.page__title {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  font-size: 2.5rem;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.page__title:after {
+  background-color: #55c0ec;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 160px;
+}
+
+.content * {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.features {
+  background-color: rgb(144, 221, 170);
+  padding-top: 1rem;
+}
+.page {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+#section2 p strong {
+  font-weight: 600;
+  padding: 0;
+}
+
+/* 
+.m-container {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+} */
+
+/* nav bar */
+/* header {
+    border-bottom: 1px solid gba(65, 89, 106, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.main-nav-container {
+    background-color: rgba(65, 89, 106, 1);
+    /* padding: 16px 0;   */
+/* text-align: left;
+
+} */
+
+/* ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 10px;
+    
+}
+
+li {
+    padding: 5px;
+    display: inline-block;
+    
+}
+
+nav a:link, a:visited{
+  display: inline-flex;
+    text-decoration-line: none;
+    color: rgb(255, 208, 90);
+    font-size: 1.4em;
+    word-wrap: break-word;
+}
+ a:active {
+    color: rgb(255, 255, 255);
+ }
+
+
+/* About section */
+
+
+/* features section */
+
+/* .features {
+  background-color: #90ddaa;
+  display: inline-flex;
+}
+
+.h-container1 {
+  background-color: rgba(65, 89, 106, 1);
+  min-width: 100px;
+}
+
+.h-container2 {
+  background-color: rgba(65, 89, 106, 1);
+  min-width: 100px;
+}
+
+.h-container3 {
+  background-color: rgba(65, 89, 106, 1);
+  min-width: 100px;
+} */
